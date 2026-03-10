@@ -1,0 +1,9 @@
+venv/
+env/
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+
+# Ignore raw data to avoid checking in large files
+data/raw/*
+!data/raw/.gitkeep
